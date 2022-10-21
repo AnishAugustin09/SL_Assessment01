@@ -1,5 +1,6 @@
 package LockedME.com;
 
+import java.util.Arrays;
 import java.util.Scanner;
 import java.io.File;
 public class LockedFile {
@@ -36,6 +37,7 @@ public class LockedFile {
 	private static void programEnds() {
 		// TODO Auto-generated method stub
 		
+		
 	}
 
 	private static void manageOperation() {
@@ -45,6 +47,11 @@ public class LockedFile {
 
 	private static void filesinFolder() {
 		// TODO Auto-generated method stub
+		String[] list= fileName.list();
+		for(String files : list) {
+			Arrays.sort(list);
+			System.out.println(files);
+		}
 		
 	}
 }
