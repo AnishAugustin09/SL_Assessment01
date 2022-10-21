@@ -42,6 +42,40 @@ public class LockedFile {
 
 	private static void manageOperation() {
 		// TODO Auto-generated method stub
+		DisplayRecords.displayOperationRecords();
+		Scanner sc=new Scanner(System.in);
+		int userOpt= sc.nextInt();
+		switch(userOpt) {
+		case 1: addFile();
+				break;
+		case 2: deleteFile();
+				break;
+		case 3: searchFile();
+				break;
+		case 4: goBack();
+				break;
+		default:System.out.println("Invalid Option, Please enter the right one");
+		}
+		
+	}
+
+	private static void goBack() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void searchFile() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void deleteFile() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private static void addFile() {
+		// TODO Auto-generated method stub
 		
 	}
 
