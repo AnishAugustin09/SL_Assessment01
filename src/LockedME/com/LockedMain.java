@@ -9,7 +9,7 @@ public class LockedMain {
 		// Calling a method to display the application and the developer details
 		DisplayRecords.entryRecords("Anish Augustin");
 		
-		
+		//As it shows the application name and developer details, the program will directly start from this function
 		LockedFile.beginingOfProgram();
 		
 	}
