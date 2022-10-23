@@ -1,7 +1,6 @@
 package LockedME.com;
 
 import java.io.IOException;
-
 public class LockedMain {
 
 	public static void main(String[] args) throws IOException {
